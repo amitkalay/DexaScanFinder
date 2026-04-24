@@ -19,7 +19,7 @@ export function LandingPage({ clinics }: { clinics: Clinic[] }) {
 
         <section className="hero-card">
           <div className="hero-copy">
-            <h1 className="hero-title">Find the cheapest DEXA scan near you in seconds</h1>
+            <h1 className="hero-title">Find the right Dexa Scan for you.</h1>
             <p className="hero-text">
               Compare pricing, availability, and locations for body composition scans across the Bay Area.
             </p>
