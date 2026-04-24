@@ -1,0 +1,19 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="roomB" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EFF6FB"/>
+      <stop offset="1" stop-color="#D7E0E7"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="120" fill="url(#roomB)"/>
+  <rect x="34" y="62" width="172" height="116" fill="#FCFEFF"/>
+  <rect x="34" y="54" width="172" height="8" fill="#E2EAF1"/>
+  <rect x="44" y="76" width="58" height="54" fill="#B8D4E7"/>
+  <path d="M102 130H176V142H102V130Z" fill="#9AA8B8"/>
+  <path d="M96 136H176V160H96V136Z" fill="#DCE5EE"/>
+  <path d="M96 120C96 103.431 109.431 90 126 90H146V120H96Z" fill="#6A7E98"/>
+  <rect x="164" y="136" width="22" height="28" rx="4" fill="#2E3441"/>
+  <rect x="56" y="144" width="18" height="26" rx="4" fill="#9CB6CF"/>
+  <path d="M44 76L84 76L44 116V76Z" fill="#DDF6FF"/>
+  <circle cx="182" cy="84" r="10" fill="#D8E995"/>
+</svg>

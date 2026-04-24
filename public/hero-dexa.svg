@@ -1,0 +1,58 @@
+<svg width="640" height="560" viewBox="0 0 640 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="320" y1="80" x2="320" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EDF4FF"/>
+      <stop offset="1" stop-color="#DCE9FF"/>
+    </linearGradient>
+    <linearGradient id="machineDark" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7C8EAA"/>
+      <stop offset="1" stop-color="#4A5A76"/>
+    </linearGradient>
+    <linearGradient id="machineLight" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D9E2F1"/>
+    </linearGradient>
+    <linearGradient id="machineBase" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FDFEFF"/>
+      <stop offset="1" stop-color="#E7EEF8"/>
+    </linearGradient>
+  </defs>
+  <circle cx="350" cy="270" r="248" fill="url(#sky)"/>
+  <ellipse cx="344" cy="456" rx="188" ry="28" fill="#C5D7F7" opacity="0.32"/>
+  <path d="M170 330H618" stroke="#BFD1F2" stroke-width="4" opacity="0.7"/>
+  <path d="M122 310C154 278 174 254 204 228C240 197 290 185 346 182C430 177 500 214 568 232" stroke="#B6CCF4" stroke-width="5" opacity="0.7"/>
+  <path d="M174 320L146 320L178 279L210 320L182 320L182 344H174V320Z" fill="#B7CAF0"/>
+  <path d="M121 319H222" stroke="#B7CAF0" stroke-width="5"/>
+  <rect x="432" y="102" width="14" height="176" rx="7" fill="#AFC4EF"/>
+  <path d="M460 190H484V278H460V190Z" fill="#B8CBF0"/>
+  <path d="M498 164H524V278H498V164Z" fill="#B5C8EE"/>
+  <path d="M538 144H560V278H538V144Z" fill="#B4C7ED"/>
+  <path d="M570 168H594V278H570V168Z" fill="#BDD0F4"/>
+  <path d="M608 212H636V278H608V212Z" fill="#B4C7ED"/>
+  <path d="M390 176H420V278H390V176Z" fill="#B6CAF1"/>
+  <path d="M364 194H382V278H364V194Z" fill="#BFD2F5"/>
+  <g filter="url(#shadow)">
+    <path d="M196 372L474 346L560 368L272 395L196 372Z" fill="url(#machineLight)"/>
+    <path d="M202 380L276 398L276 502L202 476V380Z" fill="#E0E7F2"/>
+    <path d="M276 398L560 370V470L276 502V398Z" fill="url(#machineBase)"/>
+    <path d="M174 360L468 334L590 360L286 388L174 360Z" fill="#F9FBFE"/>
+    <path d="M168 359L286 388V423L168 392V359Z" fill="url(#machineDark)"/>
+    <path d="M286 388L590 360V395L286 423V388Z" fill="#6B7D9A"/>
+    <path d="M308 130H384C426 130 460 164 460 206V346H402V224C402 196 379 174 351 174H308V130Z" fill="url(#machineDark)"/>
+    <path d="M298 116H384V174H298V116Z" fill="#F8FBFF"/>
+    <path d="M292 116H298V174H292C280 174 270 164 270 152V138C270 126 280 116 292 116Z" fill="#E6EDF7"/>
+    <path d="M298 116H384V128H298V116Z" fill="#DDE6F2"/>
+    <rect x="242" y="414" width="28" height="14" rx="4" fill="#2F73F6"/>
+  </g>
+  <defs>
+    <filter id="shadow" x="140" y="100" width="490" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="22"/>
+      <feGaussianBlur stdDeviation="16"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.190625 0 0 0 0 0.311055 0 0 0 0 0.595833 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+</svg>
