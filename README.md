@@ -1,5 +1,7 @@
 # Dexa Scan Finder
 
+This is a project designed to help uninsured people get their various heathcare needs met affordably, starting with Dexa Scans. More details can be found in [this doc](https://docs.google.com/document/d/1a6mc5-ADZ_IF87RwyTnEm7T7LOwbrO1CbqYgh22Emng/edit?usp=sharing).
+
 This repository is a single Next.js App Router application structured from the project root.
 
 ## Structure
